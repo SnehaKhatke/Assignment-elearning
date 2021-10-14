@@ -1,0 +1,319 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T08:40:53.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 704700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "emailannotation.initialization()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify email functionality",
+        "description": "",
+        "id": "email-send-feature;verify-email-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "emailannotation.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User is on Elearning Application",
+            "match": {
+              "location": "emaildefination.user_is_on_Elearning_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click on Sign up page",
+            "match": {
+              "location": "emaildefination.user_click_on_Sign_up_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enters \"Snesk11\",\"kha\", \"snekhask111@gmail.com\", \"snekhask11 1\", \"snekhask111\", \"snekhask111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Snesk11\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"kha\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"snekhask111@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"snekhask11 1\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"snekhask111\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"snekhask111\"",
+                  "offset": 85
+                }
+              ],
+              "location": "emaildefination.user_enters(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks on rigister button",
+            "match": {
+              "location": "emaildefination.user_clicks_on_rigister_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User navigates to application",
+            "match": {
+              "location": "emaildefination.user_navigates_to_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T08:40:53.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "emailannotation.initialization()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "verify Compose",
+        "description": "",
+        "id": "email-send-feature;verify-compose;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "emailannotation.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user is back on Elearning platform",
+            "match": {
+              "location": "emaildefination.user_is_back_on_Elearning_platform()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enters login credentials  \"pqrs\", \"pqrs123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqrs\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"pqrs123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "emaildefination.user_enters_login_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks on login",
+            "match": {
+              "location": "emaildefination.user_clicks_on_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user is redirected to the Dashboard",
+            "match": {
+              "location": "emaildefination.user_is_redirected_to_the_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user clicks on compose",
+            "match": {
+              "location": "emaildefination.user_clicks_on_compose()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user is on compose message page",
+            "match": {
+              "location": "emaildefination.user_is_on_compose_message_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enters \"virat\" in sendTo field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"virat\"",
+                  "offset": 12
+                }
+              ],
+              "location": "emaildefination.user_enters_in_sendTo_field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user chooses option from list",
+            "match": {
+              "location": "emaildefination.user_chooses_option_from_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enters \"welcome\" in subject field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"welcome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "emaildefination.user_enters_in_subject_field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user clicks on Send Message",
+            "match": {
+              "location": "emaildefination.user_clicks_on_Send_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user will see , message has ben sent",
+            "match": {
+              "location": "emaildefination.user_will_see_message_has_ben_sent()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "email send feature",
+    "description": "",
+    "id": "email-send-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/emailfeature/emailsend.feature",
+    "tags": []
+  }
+]

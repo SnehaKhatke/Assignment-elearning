@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.016658">
+<testcase classname="email send feature" name="Verify email functionality" time="0.010302">
+<system-out><![CDATA[Given User is on Elearning Application......................................skipped
+When User click on Sign up page.............................................skipped
+When user enters "Snesk11","kha", "snekhask111@gmail.com", "snekhask11 1", "snekhask111", "snekhask111".skipped
+Then User clicks on rigister button.........................................skipped
+And User navigates to application...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="email send feature" name="verify Compose" time="0.006356">
+<system-out><![CDATA[Given user is back on Elearning platform....................................skipped
+When user enters login credentials  "pqrs", "pqrs123".......................skipped
+Then user clicks on login...................................................skipped
+And user is redirected to the Dashboard.....................................skipped
+Then user clicks on compose.................................................skipped
+And user is on compose message page.........................................skipped
+Then user enters "virat" in sendTo field....................................skipped
+Then user chooses option from list..........................................skipped
+Then user enters "welcome" in subject field.................................skipped
+And user clicks on Send Message.............................................skipped
+Then user will see , message has ben sent...................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
